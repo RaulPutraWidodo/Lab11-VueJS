@@ -1,0 +1,28 @@
+CRITICAL - 2023-06-12 22:21:51 --> Call to a member function move() on null
+#0 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->add()
+#1 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#5 {main}
+CRITICAL - 2023-06-12 22:25:14 --> Call to a member function move() on null
+#0 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->add()
+#1 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#5 {main}
+CRITICAL - 2023-06-12 22:30:41 --> Call to a member function move() on null
+#0 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->add()
+#1 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#5 {main}
+CRITICAL - 2023-06-12 22:30:44 --> Call to a member function move() on null
+#0 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->add()
+#1 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#2 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab10web\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#5 {main}

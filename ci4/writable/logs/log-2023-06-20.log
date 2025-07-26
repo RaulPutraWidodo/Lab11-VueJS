@@ -1,0 +1,16 @@
+ERROR - 2023-06-20 00:02:39 --> Column 'judul' cannot be null
+CRITICAL - 2023-06-20 00:02:39 --> Column 'judul' cannot be null
+#0 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ar...', 0)
+#1 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\app\Controllers\Post.php(27): CodeIgniter\Model->insert(Array)
+#8 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\CodeIgniter.php(832): App\Controllers\Post->create()
+#9 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Kuliah\Semester-4\Pemrograman-Web-2\lab12web\ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#13 {main}
